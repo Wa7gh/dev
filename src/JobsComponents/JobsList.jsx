@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import JCards from "./JobsCards";
-import TransitionGroup from "react-transition-group/TransitionGroup";
+// import TransitionGroup from "react-transition-group/TransitionGroup";
 import Autosuggest from "react-autosuggest";
 import Fade from "react-reveal/Fade";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -334,7 +334,7 @@ export default class JobsList extends Component {
               {this.state.tech.length > 0 && (
                 <form onSubmit={this.add} autoComplete="off">
                   <div className="col-12 mb-2">
-                    <TransitionGroup>
+                    {/* <TransitionGroup> */}
                       {this.state.todos.map(item => (
                         <Fade key={item.id} collapse bottom>
                           <div className="card">
@@ -353,7 +353,7 @@ export default class JobsList extends Component {
                           </div>
                         </Fade>
                       ))}
-                    </TransitionGroup>
+                    {/* </TransitionGroup> */}
                   </div>
                   <Row>
                     <Autosuggest
