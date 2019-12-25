@@ -1,0 +1,97 @@
+.sinup{
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.login{
+    margin-left: 35%;
+    margin-top: 10%; 
+}
+.register{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
+.logo{
+    font-family: 'Warnes', cursive;
+  color: white;
+  font-size: 200%;
+  font-weight: lighter;
+ position: absolute;
+ top: -32%;
+ left: 53%;
+}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+.titleEmp{
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    
+}
+.textFormik{
+    color: yellow;
+}
+.deverlperReg{
+    position: absolute;
+    top: 8%;
+    color: white;
+    left: 10%;
+    font-size: 200%;
+}
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bot{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.349);
+  color: rgba(255, 255, 255, 0.911);
+  border: 2px solid rgba(255, 255, 255, 0.918);
+  padding: 10px 26px;
+  left: 40%;
+  
+}
+.bot1{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+  color: rgba(3, 1, 1, 0.664);
+  border: 2px solid rgba(0, 0, 0, 0.424);
+  padding: 10px 26px;
+  left: 3%; 
+}
+.bot1:hover{
+
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+
+
+  
+}
+
+.bot:hover{
+    position: absolute;
+
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+
+  left: 40%;
+  
+}
+.md-form label{
+color: white !important ;
+size: 90%;
+font-size: 80%;
+}
+.form-control{
+    color: white !important ;  
+}
+.md-form{
+    color: white !important ;  
+}
+.body {
+    color: white !important ; 
+}
+
+
+
+

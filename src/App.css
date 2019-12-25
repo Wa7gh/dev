@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
+.logoDDW{
+
+  font-family: 'Warnes', cursive;
+  /* font-family: 'Mr Bedfort', cursive; */
+  color: white;
+  font-size: 500%;
+  font-weight: lighter;
+ position: absolute;
+ top: 30%;
+ left: 42%;
+}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.fontstyle{
+  font-family: 'Playfair Display', serif;
+}
+.fontstyleInsideCard{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logoDDWhead{
+ font-family: 'Warnes', cursive;
+ color: white;
+ font-size: 200%;
+ font-weight: lighter;
+ position: fixed;
+ z-index: 1100;
+ top: 1%;
+ left: 90%;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background: #fff;
+}
+.map{
+  margin-left: 60%;
+  margin-top: 13%;
+  width: 30%;
+}
+.num{
+  color: white;
+  font-size: 150%;
+  margin-left: 63%
+}
+.fontstylesaudi{
+  font-size: 110%;
+  font-family: 'Playfair Display', serif;
+}
+.sidebar {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 280px;
+  background: white;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  margin: 20px;
+  color: #a0a0a0;
+  z-index: 100;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.ant-avatar {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 3em !important;
+}
+
+.middle .ant-form-item-control {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar .ant-form-item {
+  margin: 0;
+}
+
+.sidebar .ant-form-item-control {
+  line-height: 29px;
+}
+:root {
+  --navcover-z-index: 99;
+  --sidenav-z-index: 100;
+}
+
+.nav-cover {
+  position: fixed;
+  z-index: var(--navcover-z-index);
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+/*   background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;  /* to be set in js */
+  position: fixed;
+  overflow-x: hidden;
+  z-index: var(--sidenav-z-index);
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.603);
+  padding-top: 3.5rem;
+  transition: 0.5s;
+}
+
+.side-nav a {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #2e2e2e;
+  display: block;
+  transition: 0.53s;
+}
+
+.side-nav a:hover {
+ 
+  color: #033b37;
+  
+  font-size: 1.9rem;
+
+
+  
+}
+
+.side-nav .close-nav {
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+  font-size: 2.2rem;
+}
+
+.site-wrapper {
+    transition: margin-left .5s;
+}
+
+.open-nav {
+  font-family: inherit;
+  font-size: 1.4rem;
+  margin-left: 2%;
+  color: rgb(255, 255, 255);
+  z-index: 1100;
+  position: fixed;
+  cursor: pointer;
+}
+.link {
+  font-family: 'Playfair Display', serif;
+  font-size:  150%;
+  color: rgba(255, 255, 255, 0.397);
+  text-decoration: none;
+}
+.link:hover{
+  color:white;
+}
+
+.link1 {
+  font-family: 'Playfair Display', serif;
+  font-size:  150%;
+  color: rgba(255, 255, 255, 0.397);
+  text-decoration: none;
+}
+.link1:hover{
+  color:white;
+}
+.hov{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+}
+.free{
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 5%;
+}
+
+.proth{
+  position: absolute; 
+  object-fit: cover;
+}
+.section {
+  text-align: center;
+}
+
+/* .react-simple-parallax-bg is generate by the component */
+.section .react-simple-parallax-bg {
+  background-image: url('http://tinyurl.com/zaz7bp4');
+  height: 750px;
+}
+
+.section .parallax {
+  top: 200px;
+  margin: auto;
+ 
+  
+}
+.textStyle{
+  position: absolute;
+  top : 40%;
+  left: 2%;
+  width: 20%;
+  color: white;
+  font-size: 190%;
+}
+
+.textStyle1{
+  display: inline;
+  position: absolute;
+  top : 45%;
+  left: 2%;
+  width: 70%;
+  color: white;
+  font-size: 250%;
+}
+.textStyle2{
+  
+  position: absolute;
+  top : 55%;
+  left: 2%;
+  width: 60%;
+  color: white;
+  font-size: 130%;
+}
+
+.textStyle3{
+  position: absolute;
+  top : 60%;
+  left: 2%;
+  width: 60%;
+  color: white;
+  font-size: 130%;
+}
+.aStyle {
+
+            
+  display: grid;
+  color: rgba(255, 255, 255, 0.37);
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 50%;
+  position: absolute; 
+  top: 76%;
+  left: 6%;
+  width: 2%;
+  
+  color: white;
+}
+
+.aStyle:hover {
+color: white;
+}
+
+.tStyle {
+           
+ font-size: 180%;
+  color: rgba(255, 255, 255, 0.37);
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+  position: absolute; 
+  text-decoration: none;
+}
+.profileLink{
+  color: rgba(255, 255, 255, 0.63);
+  text-decoration: none;
+}
+.profileLink:hover{
+  color: rgb(255, 255, 255);
+  text-decoration: white;
+
+}
+.profil{
+  z-index: 100;
+  position: absolute; 
+  top: 38%;
+  left: 89%;
+  width: 2%;
+
+}
+.deawer{
+  color: rgba(255, 255, 255, 0.63);
+}
+.tSpacing{
+  margin-left: 3%;
+  font-size: 130%;
+}
+.imgProfile{
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.goBack{
+  margin-left: 3%;
+  size: 3%;
+  color: gray;
+  cursor: pointer;
+}
+.goBack:hover{
+  color: rgb(63, 63, 63);
+}
+.imgLandpage{
+  display: block;
+  border-radius: 50%;
+  width:0%;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerStyle {
+
+            
+  display: grid;
+  color: rgba(255, 255, 255, 0.37);
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 70%;
+  position: absolute; 
+  top: 76%;
+  left: 40%;
+  width: 2%;
+  
+  color: white;
+}
+.copy{
+  color: white;
+  position: absolute; 
+  top: 86%;
+  left: 38%;
+}
+.footer{
+  font-weight: 100;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1%;
+  position: absolute;
+  top: 92%;
+  left: 14%;
+  width: 70%;
+}
+.projectCards{
+  position: absolute;
+  grid-gap: 5%;
+  top: 105%;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  margin-left: 18%;
+  margin-bottom: 4%;
+
+}
+.divider{
+  color: white;
+}
+.DDw{
+  font-family: 'Playfair Display', serif;
+  width: 17%;
+  display: inline;
+  font-size: 240%;
+}
+
+.prtimgUser{
+ 
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+  .prtimgUser{
+ 
+    height: 825px;
+    width: 1800px;
+   
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+
+  .prtimgUser{
+ 
+    height: 825px;
+    width: 1800px;
+   
+  }
+
+}
+@media only screen and (max-width: 2000px) {
+  /* for sumo sized (mac) screens */
+  .prtimgUser{
+ 
+    height: 825px;
+    width: 1800px;
+   
+  }
+
+}
+@media only screen and (max-device-width: 480px) {
+ /* styles for mobile browsers smaller than 480px; (iPhone) */
+ .prtimgUser{
+  height: 1500px;
+  width: 475px;
+}
+
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+.prtimgUser{
+ 
+  height: 825px;
+  width: 1800px;
+ 
+}
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+.prtimgUser{
+ 
+  height: 825px;
+  width: 1800px;
+  
+ 
+}
+
+}
+.md-form input ,.md-form label {
+  color :black!important 
+}
+.md-form textarea.md-textarea{
+  color :black!important 
+}

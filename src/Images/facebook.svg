@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.00016 0 39.7216 0 39.7216 39.72144 0.00016 39.72144"></polygon>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RED-SEA-1.2-Partnerships-3-Copy" transform="translate(-550.000000, -3661.000000)">
+            <g id="Footer" transform="translate(0.000000, 3587.000000)">
+                <g id="Group-3-Copy-3" transform="translate(550.000000, 74.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2-Copy-3"></g>
+                    <path d="M24.80016,20.55984 L21.56896,20.55984 L21.56896,32.07664 L16.78096,32.07664 L16.78096,20.55984 L14.50496,20.55984 L14.50496,16.48944 L16.78096,16.48944 L16.78096,13.85664 C16.78096,11.97104 17.67696,9.02464 21.61296,9.02464 L25.16096,9.03824 L25.16096,12.98944 L22.58576,12.98944 C22.16656,12.98944 21.57056,13.19904 21.57056,14.09824 L21.57056,16.49024 L25.21856,16.49024 L24.80016,20.55984 Z M19.86096,-0.00016 C8.90976,-0.00016 0.00016,8.90944 0.00016,19.86064 C0.00016,30.81104 8.90976,39.72144 19.86096,39.72144 C30.81136,39.72144 39.72176,30.81104 39.72176,19.86064 C39.72176,8.90944 30.81296,-0.00016 19.86096,-0.00016 Z" id="Fill-1-Copy-4" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

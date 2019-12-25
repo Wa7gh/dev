@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+ .react-autosuggest__input {
+    width: 240px;
+    height: 40px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+  
+  .react-autosuggest__input--focused {
+    outline: none;
+  }
+  
+  .react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .react-autosuggest__suggestions-container {
+    display: none;
+  }
+  
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    /* position: absolute; */
+    top: 51px;
+    margin-top: 0;
+    width: 240px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+  }
+  
+  .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+  }
+  
+  .buttonThing{
+    display: flex;
+    align-items: flex-start;
+  }
+  .imgBackground{
+    position: fixed;
+    top: 0%;
+  left: 0%;
+    background-size: cover;
+ 
+  }
+  .filterStyle{
+    border-radius: 5px;
+    background-color: rgba(155, 155, 155, 0.596);
+    margin-top: 80%;
+    margin-bottom: 4%;
+    height: 0%;
+  }
+  .filterStyle:hover{
+    background-color: rgba(248, 248, 248, 0.924);
+  
+  }
+  .boutton{
+    margin-left: 2%;
+  }
+  .cardJob{
+    margin-top: 80%;
+    margin-bottom: 4%;
+  }
+  .applyCard{
+    color: white;
+    margin-top: 80%;
+    height: 0%;
+  }
+   .textBackground{
+    font-family: 'Playfair Display', serif;
+    display: inline;
+    position: absolute;
+    z-index: 1100;
+    top : 35%;
+    left: 12%;
+    width:70%;
+    color: white;
+    font-size: 450%;
+    font-weight: 20%;
+   
+ 
+  }
+  .cardJobSt{
+    color: #000;
+    text-align: center;
+  }
+  .textCareer{
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    z-index: 1100;
+    top : 55%;
+    left: 12%;
+    -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+    -moz-column-count: 2; /* Old Firefox */
+    column-count: 2;
+    color: white;
+    font-size: 130%;
+  }
+  .arroww{
+    position: absolute;
+    z-index: 1100;
+    top : 92%;
+    left: 47%;
+  }
+
+  /*animated scroll arrow animation*/
+  .arrow{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}

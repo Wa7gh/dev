@@ -1,0 +1,24 @@
+.bot{
+   
+    background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.664);
+  border: 2px solid rgba(0, 0, 0, 0.424);
+  padding: 10px 26px;
+
+}
+#btn-primary{
+    background-color: black !important;
+}
+#md-form label{
+    color: black !important;
+}
+
+.AddProject .md-textarea .form-control .md-form .label{
+    color: #000 !important;
+}
+.AddProject .md-form{
+    color: #000 !important;
+}
+.md-form label {
+    color: black !important;
+}
