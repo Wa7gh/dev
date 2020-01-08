@@ -135,7 +135,7 @@ const SignupForm = () => {
               <div>{formik.errors.password}</div>
             ) : null}
 
-            <MDBInput
+            <MDBInput className="md-form"
               label="Confirm password"
               id="cpassword"
               name="cpassword"
